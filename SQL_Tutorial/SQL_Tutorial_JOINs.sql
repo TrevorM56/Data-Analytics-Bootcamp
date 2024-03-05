@@ -2,16 +2,16 @@
  INNER, FULL, LEFT, RIGHT, OUTER JOINs
  */
 
--- INSERT INTO SQLTutorial.dbo.Employee_Demographics
--- VALUES
---	(1011, 'Ryan', 'Howard', 26, 'Male'),
---	(NULL, 'Holly', 'Flax', NULL, NULL),
---	(1013, 'Darryl', 'Philben', NULL, 'Male')
+INSERT INTO SQLTutorial.dbo.Employee_Demographics
+VALUES
+	(1011, 'Ryan', 'Howard', 26, 'Male'),
+	(NULL, 'Holly', 'Flax', NULL, NULL),
+	(1013, 'Darryl', 'Philben', NULL, 'Male')
 
---INSERT INTO SQLTutorial.dbo.Employee_Salary
---VALUES
---	(1010, NULL, 47000),
---	(NULL, 'Salesman', 43000)
+INSERT INTO SQLTutorial.dbo.Employee_Salary
+VALUES
+	(1010, NULL, 47000),
+	(NULL, 'Salesman', 43000)
 
 
  SELECT
